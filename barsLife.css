@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+}
+.controls {
+    position: fixed;
+    bottom: 15px; /* Distância do fundo */
+    left: 15px; /* Distância da esquerda */
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+.control {
+    display: flex;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.8); /* Fundo mais escuro */
+    color: white; /* Texto branco */
+    padding: 5px 10px; /* Espaçamento interno reduzido */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para efeito de profundidade */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.control:hover {
+    background-color: rgba(100, 100, 100, 0.9); /* Efeito hover */
+}
+.icon {
+    font-size: 16px; /* Tamanho do ícone reduzido */
+    margin-right: 5px; /* Espaçamento entre ícone e texto */
+    font-weight: bold; /* Destacar o ícone */
+}
+
+#barsLife {
+    display: flex;
+    justify-content: space-between; /* Distribui as 4 seções igualmente pela tela */
+    width: 98.5%; /* Ocupa a largura total da tela */
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    align-items: flex-start;
+    padding: 0 0;
+    z-index: 999;
+    
+}
+
+#health-player {
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-player {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #00ff00; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+
+#health-enemyTankA {
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankA {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #871f77; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+
+
+#health-enemyTankB {
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankB {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #2151a6; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+#health-enemyTankC {
+    margin-top: 15px;
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankC {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #ad1919; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+
+#health-enemyTankD {
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankD {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #e77326; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+#health-enemyTankE {
+    margin-top: 15px;
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankE {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #e7e937; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
+#health-enemyTankF {
+    margin-top: 15px;
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 200px; /* Largura total da barra */
+    height: 20px; /* Altura da barra */
+    background-color: #555; /* Cor de fundo (cinza escuro) */
+    border: 2px solid #000; /* Borda preta ao redor da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Barra de vida */
+#health-bar-enemyTankF {
+    width: 100%; /* Largura total da barra */
+    height: 100%; /* Altura da barra */
+    background-color: #4ee6eb; /* Cor verde para a vida */
+    border-radius: 5px; /* Arredondamento interno */
+}
+
